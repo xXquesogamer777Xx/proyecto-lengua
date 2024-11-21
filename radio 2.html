@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Copernico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+        header {
+            background: #800020;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #660018;
+            padding: 10px 0;
+        }
+        nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        .streaming-section, .interactive-tools, .app-section {
+            background: #000000;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 20px;
+            border: 2px solid #800020;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #660018;
+            color: rgb(0, 0, 0);
+        }
+        audio {
+            margin-top: 15px;
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Radio Copernico</h1>
+        <p>Conectando voces, inspirando comunidades</p>
+    </header>
+
+    <nav>
+        <a href="#streaming">Streaming</a>
+        <a href="#interactive">Encuestas</a>
+        <a href="#app">Aplicación</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="streaming" class="streaming-section">
+            <h2>Plataforma de Streaming</h2>
+            <p>Escucha nuestras transmisiones en vivo desde cualquier lugar.</p>
+            <audio controls>
+                <source src="https://example.com/radio-stream.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio HTML5.
+            </audio>
+        </section>
+
+        <section id="interactive" class="interactive-tools">
+            <h2>Herramientas Interactivas</h2>
+            <p>Participa en nuestras encuestas y ayúdanos a mejorar.</p>
+            <form>
+                <label for="encuesta">¿Qué tipo de contenido prefieres?</label><br>
+                <select id="encuesta" name="encuesta">
+                    <option value="musica">Música</option>
+                    <option value="entrevistas">Entrevistas</option>
+                    <option value="noticias">Noticias</option>
+                </select><br><br>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+
+        <section id="app" class="app-section">
+            <h2>Descarga nuestra App</h2>
+            <p>Disfruta de Radio Copernico desde tu smartphone con funcionalidades exclusivas.</p>
+            <button class="btn">Descargar para iOS</button>
+            <button class="btn">Descargar para Android</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Radio NovaVoz | Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio NovaVoz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f0f0; /* Fondo suave relacionado con bordó */
+        }
+        header {
+            background: #800020; /* Bordó oscuro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #660018; /* Bordó intermedio */
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            background: rgba(128, 0, 32, 0.7); /* Botones bordó translúcido */
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background: rgba(128, 0, 32, 1); /* Color más intenso al pasar el mouse */
+        }
+        main {
+            padding: 20px;
+        }
+        .streaming-section, .interactive-tools, .app-section {
+            background: #f4d6d6; /* Fondo suave relacionado con bordó */
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 20px;
+            border: 2px solid #800020; /* Bordó oscuro */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #660018; /* Bordó intermedio */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Radio NovaVoz</h1>
+        <p>Conectando voces, inspirando comunidades</p>
+    </header>
+
+    <!-- Menú de Navegación -->
+    <nav>
+        <a href="#streaming">Streaming</a>
+        <a href="#interactive">Encuestas</a>
+        <a href="#app">Aplicación</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <main>
+        <!-- Sección de Streaming -->
+        <section id="streaming" class="streaming-section">
+            <h2>Plataforma de Streaming</h2>
+            <p>Escucha nuestras transmisiones en vivo desde cualquier lugar.</p>
+            <audio controls>
+                <source src="https://example.com/radio-stream.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio HTML5.
+            </audio>
+        </section>
+
+        <!-- Sección de Encuestas -->
+        <section id="interactive" class="interactive-tools">
+            <h2>Herramientas Interactivas</h2>
+            <p>Participa en nuestras encuestas y ayúdanos a mejorar.</p>
+            <form>
+                <label for="encuesta">¿Qué tipo de contenido prefieres?</label><br>
+                <select id="encuesta" name="encuesta">
+                    <option value="musica">Música</option>
+                    <option value="entrevistas">Entrevistas</option>
+                    <option value="noticias">Noticias</option>
+                </select><br><br>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Sección de la Aplicación -->
+        <section id="app" class="app-section">
+            <h2>Descarga nuestra App</h2>
+            <p>Disfruta de Radio NovaVoz desde tu smartphone con funcionalidades exclusivas.</p>
+            <button class="btn">Descargar para iOS</button>
+            <button class="btn">Descargar para Android</button>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>¡Nos encantaría saber de ti! Puedes contactarnos a través de nuestras redes sociales o enviar un correo a contacto@novavoz.com.
+                @RadioNovaVoz en instagram y facebook.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Radio NovaVoz | Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio NovaVoz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #800020, #660018); /* Fondo con gradiente */
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: rgba(128, 0, 32, 0.8);
+            padding: 30px;
+            animation: fadeIn 2s;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #660018;
+            padding: 15px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 12px 25px;
+            margin: 0 10px;
+            border-radius: 30px;
+            background-color: rgba(128, 0, 32, 0.7);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            background-color: #800020;
+            transform: scale(1.1);
+        }
+        main {
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .btn {
+            padding: 10px 30px;
+            background-color: #800020;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #660018;
+            transform: scale(1.1);
+        }
+        footer {
+            background: #660018;
+            padding: 20px 0;
+            color: white;
+            font-size: 1.1em;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Animación para el fade-in */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        /* Tarjetas */
+        .card {
+            display: inline-block;
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Bienvenidos a Radio NovaVoz</h1>
+        <p>Conectando voces, inspirando comunidades</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#streaming">Streaming</a>
+        <a href="#interactive">Encuestas</a>
+        <a href="#app">Aplicación</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Streaming Section -->
+        <section id="streaming">
+            <h2>Plataforma de Streaming</h2>
+            <p>Escucha nuestras transmisiones en vivo desde cualquier lugar.</p>
+            <audio controls>
+                <source src="https://example.com/radio-stream.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio HTML5.
+            </audio>
+        </section>
+
+        <!-- Encuestas Section -->
+        <section id="interactive">
+            <h2>Herramientas Interactivas</h2>
+            <p>Participa en nuestras encuestas y ayúdanos a mejorar.</p>
+            <form>
+                <label for="encuesta">¿Qué tipo de contenido prefieres?</label><br>
+                <select id="encuesta" name="encuesta">
+                    <option value="musica">Música</option>
+                    <option value="entrevistas">Entrevistas</option>
+                    <option value="noticias">Noticias</option>
+                </select><br><br>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Aplicación Section -->
+        <section id="app">
+            <h2>Descarga nuestra App</h2>
+            <p>Disfruta de Radio NovaVoz desde tu smartphone con funcionalidades exclusivas.</p>
+            <button class="btn">Descargar para iOS</button>
+            <button class="btn">Descargar para Android</button>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>¡Nos encantaría saber de ti! Puedes contactarnos a través de nuestras redes sociales o enviar un correo a contacto@novavoz.com.</p>
+        </section>
+
+        <!-- Tarjetas adicionales -->
+        <div class="card">
+            <h3>¡Sigue nuestras redes sociales!</h3>
+            <p>¡Síguenos en nuestras redes sociales para estar al tanto de nuestras novedades!</p>
+        </div>
+        <div class="card">
+            <h3>Escucha nuestra música exclusiva</h3>
+            <p>Disfruta de nuestra selección de canciones de todos los géneros, solo en NovaVoz.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Radio NovaVoz | Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
